@@ -4,9 +4,9 @@
     left: 0;
     width: 100%;
     z-index: var(--header-z-index);
-    background-color: var(--color-white);
+    background-color: var(--alternate-background-color);
     transition: transform var(--duration);
-    border-bottom: 1px solid rgb(var(--superLightGrey));
+    box-shadow: 0 5px 5px var(--box-shadow);
 
     &.fixed {
         transform: translateY(-100%);

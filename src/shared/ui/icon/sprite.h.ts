@@ -1,9 +1,15 @@
 export interface SpritesMap {
-  'common': 'profile' | 'moon' | 'sun'
+  'common':
+  'moon' |
+  'profile' |
+  'sun'
 }
-
 export const SPRITES_META: {
-  'common': Array<'profile' | 'moon' | 'sun'>
+  'common': Array<'moon' | 'profile' | 'sun'>
 } = {
-  'common': ['profile', 'moon', 'sun']
+  'common': [
+    'moon',
+    'profile',
+    'sun'
+  ]
 };
