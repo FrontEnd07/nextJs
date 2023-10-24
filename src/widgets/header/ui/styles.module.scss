@@ -34,3 +34,25 @@
     align-items: center;
     height: 100%;
 }
+
+@mixin navLinkIcon {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 20px;
+    transition: opacity var(--duration);
+    margin-right: 6px;
+    color: var(--text-color);
+    opacity: .8;
+
+    &:hover {
+        opacity: 1;
+    }
+
+    svg {
+        display: block;
+        width: 24px;
+        height: 24px;
+        margin-right: 6px;
+    }
+}

@@ -3,6 +3,7 @@ const svg = require('@neodx/svg/webpack');
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  trailingSlash: false,
   webpack: (config, { isServer }) => {
     if (!isServer) {
       config.plugins.push(

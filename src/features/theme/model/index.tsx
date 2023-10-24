@@ -1,11 +1,10 @@
 import { createEvent, createStore, sample } from 'effector';
 import { atom } from 'shared/factory';
-import { Theme } from './types';
-
+import { Theme } from '../type';
 
 export const themeModel = atom(() => {
 
-    const $currentTheme = createStore('light');
+    const $currentTheme = createStore((typeof localStorage !== "undefined" && localStorage.theme) ? localStorage.theme : 'light');
 
     const toggleTheme = createEvent<Theme>();
 
@@ -15,6 +14,11 @@ export const themeModel = atom(() => {
         fn: (currentTheme) => currentTheme === 'light' ? 'dark' : 'light',
         target: $currentTheme,
     });
+
+    if (typeof localStorage !== 'undefined') {
+        $currentTheme.watch(currentTheme => localStorage.setItem('theme', currentTheme))
+    }
+
 
     return {
         $currentTheme,

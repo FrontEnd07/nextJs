@@ -6,8 +6,10 @@ export default function Document() {
       <Head>
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <link rel="preload" href="/fonts/Roboto/Roboto-Bold.ttf" as="font" type="font/ttf" crossOrigin="" />
-        <link rel="preload" href="/fonts/Robotoe/Roboto-Regular.ttf" as="font" type="font/ttf" crossOrigin="" />
+        <link rel="preload" href="/fonts/Roboto/Roboto-Regular.ttf" as="font" type="font/ttf" crossOrigin="" />
         <link rel="preload" href="/fonts/Roboto/Roboto-Light.ttf" as="font" type="font/ttf" crossOrigin="" />
+        <link rel="apple-touch-icon" href="/apple-icon.png" />
+        <meta name="theme-color" content="var(--color-primary)" />
       </Head>
       <body>
         <Main />

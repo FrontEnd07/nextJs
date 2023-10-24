@@ -1,6 +1,7 @@
-
-
 export const paths = {
     home: '/',
-    policy: '/policy'
+    card: '/card',
+    policy: '/policy',
+    profile: '/profile',
+    favorites: '/favorites'
 }
