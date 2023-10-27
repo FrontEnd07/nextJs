@@ -1,47 +1,65 @@
 @font-face {
-    font-family: 'Roboto', sans-serif;
-    src: url(/fonts/Roboto/Roboto-Bold.ttf) format("ttf");
-    font-display: swap;
-    font-weight: 700;
-}
-
-@font-face {
-    font-family: 'Roboto', sans-serif;
-    src: url(/fonts/Roboto/Roboto-Medium.ttf) format("ttf");
-    font-display: swap;
-    font-weight: 500;
-}
-
-@font-face {
-    font-family: 'Roboto', sans-serif;
-    src: url(/fonts/Roboto/Roboto-Regular.ttf) format("ttf");
-    font-display: swap;
+    font-family: "Tasty-Gothic";
+    src: url(/fonts/Tasty-Gothic/Tasty-Gothic_Book.woff2) format("woff2");
     font-weight: 400;
+    font-style: normal;
+    font-display: swap
 }
 
 @font-face {
-    font-family: 'Roboto', sans-serif;
-    src: url(/fonts/Roboto/Roboto-Light.ttf) format("ttf");
-    font-display: swap;
-    font-weight: 300;
+    font-family: "Tasty-Gothic";
+    src: url(/fonts/Tasty-Gothic/Tasty-Gothic_Demi.woff2) format("woff2");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap
 }
 
 @font-face {
-    font-family: 'Roboto', sans-serif;
-    src: url(/fonts/Roboto/Roboto-Thin.ttf) format("ttf");
-    font-display: swap;
-    font-weight: 200;
+    font-family: "Tasty-Gothic";
+    src: url(/fonts/Tasty-Gothic/Tasty-Gothic_Heavy.woff2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
 }
 
-@font-face {
-    font-family: 'Roboto', sans-serif;
-    src: local("Arial");
-    ascent-override: 79.81%;
-    descent-override: 15.53%;
-    line-gap-override: 0%;
-    size-adjust: 125.78%;
-}
+
+// @font-face {
+//     font-family: 'Roboto', sans-serif;
+//     src: url(/fonts/Roboto/Roboto-Medium.ttf) format("ttf");
+//     font-display: swap;
+//     font-weight: 500;
+// }
+
+// @font-face {
+//     font-family: 'Roboto', sans-serif;
+//     src: url(/fonts/Roboto/Roboto-Regular.ttf) format("ttf");
+//     font-display: swap;
+//     font-weight: 400;
+// }
+
+// @font-face {
+//     font-family: 'Roboto', sans-serif;
+//     src: url(/fonts/Roboto/Roboto-Light.ttf) format("ttf");
+//     font-display: swap;
+//     font-weight: 300;
+// }
+
+// @font-face {
+//     font-family: 'Roboto', sans-serif;
+//     src: url(/fonts/Roboto/Roboto-Thin.ttf) format("ttf");
+//     font-display: swap;
+//     font-weight: 200;
+// }
+
+// @font-face {
+//     font-family: 'Roboto', sans-serif;
+//     src: local("Arial");
+//     ascent-override: 79.81%;
+//     descent-override: 15.53%;
+//     line-gap-override: 0%;
+//     size-adjust: 125.78%;
+// }
 
 html {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Tasty-Gothic", serif;
 }

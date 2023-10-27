@@ -28,4 +28,8 @@
     --window-z-index: 1000;
     --select-z-index: 50;
     --filters-z-index: 150;
+
+    @media (min-width: 1200px) {
+        --header-height: 114px;
+    }
 }

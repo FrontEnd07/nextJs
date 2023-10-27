@@ -1,5 +1,5 @@
 import clsx from 'clsx';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, HTMLInputTypeAttribute } from 'react';
 import { useStore, useEvent } from 'effector-react';
 import { themeModel } from 'features/theme';
 import { Icon } from 'shared/ui/icon';

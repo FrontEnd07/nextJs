@@ -1,6 +1,6 @@
-import { atom } from "shared/factory";
-import { createGate } from "effector-react";
-import type { NextRouter } from "next/router"
+import { atom } from "shared/factory"
+import { createGate } from 'effector-react';
+import type { NextRouter } from 'next/router';
 import type { ParsedUrlQuery } from 'querystring';
 import { attach, createStore, sample } from 'effector';
 
@@ -40,4 +40,4 @@ export const navigationModel = atom(() => {
         pushFx,
         pushQueryFx,
     };
-})
+});

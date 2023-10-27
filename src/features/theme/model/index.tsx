@@ -15,10 +15,7 @@ export const themeModel = atom(() => {
         target: $currentTheme,
     });
 
-    if (typeof localStorage !== 'undefined') {
-        $currentTheme.watch(currentTheme => localStorage.setItem('theme', currentTheme))
-    }
-
+    $currentTheme.watch(currentTheme => typeof localStorage !== 'undefined' && localStorage.setItem('theme', currentTheme))
 
     return {
         $currentTheme,

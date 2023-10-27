@@ -1,6 +1,7 @@
 import clsx from "clsx"
 import { Logo } from "./logo";
 import { Card } from "./card";
+import { Nav } from "./nav";
 import { Profile } from "./profile";
 import { useHeaderFixed } from "../lib";
 import { Favorites } from "./favorites";
@@ -14,10 +15,15 @@ export const Header = () => {
         [styles.fixed]: isFixed,
     })}>
         <div className={clsx('container', styles.container)}>
-            <div className={styles.row}>
-                <Logo />
+            <div className={clsx(styles.left, styles.row)}>
+                <div>
+                    <Logo />
+                </div>
+                <div>
+                    <Nav />
+                </div>
             </div>
-            <div className={styles.row}>
+            <div className={clsx(styles.rigth, styles.row)}>
                 <Favorites />
                 <Card />
                 <Profile />
